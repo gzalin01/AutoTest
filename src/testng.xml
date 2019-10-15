@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tdrManager">
+    <test verbose="2" preserve-order="true" name="C:/Users/tdr_lhy/IdeaProjects/tdrManager">
+        <classes>
+            <!--
+            <class name="com.seleniumTest.SeleniumDemo">
+                <methods>
+                    <include name="testSearch" />
+                </methods>
+            </class>
+
+            <class name="com.seleniumTest.DifferentDriverTest">
+                <methods>
+                    <include name="testFireFoxDriver" />
+                </methods>
+            </class>
+            -->
+
+            <class name="MyTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
